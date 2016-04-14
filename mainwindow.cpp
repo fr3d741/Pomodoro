@@ -163,7 +163,6 @@ void MainWindow::UpdateTime()
 {
     QTime time = QTime(0,0,0);
     time = time.addSecs(_remaingSeconds);
-    int h = time.hour();
     int m = time.minute();
     int s = time.second();
     QString format;
