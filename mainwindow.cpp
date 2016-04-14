@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     ,_timerId(-1)
     ,_defaultStyle("QWidget#pomodoro_main {background:black; color:green;}")
     ,_blinkStyle("QWidget#pomodoro_main {background:white; color:black;}")
-    ,_blink(false)
+    ,_blink(true)
 {
     setMinimumSize(100, 50);
     setObjectName("pomodoro_main");
